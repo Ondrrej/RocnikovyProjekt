@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+  <meta charset="UTF-8">
+  <title>Poznámková aplikace</title>
+  <link rel="stylesheet" href="notes.css" type="text/css">
+</head>
+<body>
+  <h1>Poznámková aplikace</h1>
+  <a href="help.html">Nápověda</a>
+  <div id="container">
+    <div id="form">
+      <input type="hidden" id="noteId" value="0">
+      <input type="text" id="noteTitle" placeholder="Zadej titulek poznámky">
+      <textarea id="noteContent" rows="10" placeholder="Zadej obsah poznámky"></textarea>
+      <button id="saveButton">Uložit poznámku</button>
+    </div>
+    <div id="notes">
+      <!-- Zde se zobrazí poznámky z databáze -->
+    </div>
+  </div>
+  <script>
+
+  </script>
+  <script src="notes3.js">
+  </script>
