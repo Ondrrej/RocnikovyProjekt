@@ -86,7 +86,7 @@
         }
         
         #container {
-            max-width: 1200px; /* omezíme maximální šířku kontejneru */
+            max-width: 1200px; 
             margin: 0 auto;
             display: flex;
             flex-wrap: wrap;
@@ -94,8 +94,8 @@
         }
         
         #form {
-            flex: 1 1 40%; /* nastavíme flexibilní šířku a zmenšení pro formulář */
-            min-width: 300px; /* nastavíme minimální šířku pro formulář */
+            flex: 1 1 40%; 
+            min-width: 300px; 
             border: 1px solid #ccc;
             padding: 20px;
         }
@@ -120,8 +120,8 @@
         }
         
         #notes {
-            flex: 1 1 40%; /* nastavíme flexibilní šířku a zmenšení pro poznámky */
-            min-width: 300px; /* nastavíme minimální šířku pro poznámky */
+            flex: 1 1 40%; 
+            min-width: 300px; 
             border: 1px solid #ccc;
             padding: 20px;
             overflow-y: auto;
@@ -151,10 +151,10 @@
             text-decoration: underline;
         }
         
-        /* Přidáme media query pro malé obrazovky */
+ 
         @media (max-width: 600px) {
             #container {
-            flex-direction: column; /* změníme směr flexboxu na sloupec */
+            flex-direction: column; 
             }
         }
         
